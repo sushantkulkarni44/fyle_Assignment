@@ -1,0 +1,871 @@
+/* -----------------------------Home Page---------------------------------------- */
+.div1
+{
+  width: 100%;
+  min-height:100vh;
+}
+.looking-for-a-lollip 
+{
+  color: #31373D;
+  font-family:aktiv-grotesk, sans-serif;
+  font-size: 3.9vw;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 58px;
+  width: 489px;
+  text-align: left;
+  margin-left: 30.56%;
+  margin-top: 146px;
+}
+.para
+{
+  color: #31373D;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 400;
+  line-height: 22px;
+  width: 489px;
+  text-align: left;
+  margin-left: 30.56%;
+}
+.btn1
+{
+  background-color: #0099FF;
+  border-radius: 3px;
+  width: 32%;
+  height: 48px;
+  color: white;
+  margin-left: 29.86%;
+  border: none;
+  color: #FFFFFF;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+}
+.btn2
+{
+  border: 2px solid rgb(85, 103, 116);
+  border-radius: 3px;
+  width: 32%;
+  height: 48px;
+  margin-left: 20px;
+  color: #31373D;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+}
+.div1-1-2
+{
+  width: 100%;
+}
+.img1
+{
+  width:275px;
+   height: 321px;
+   margin-top: 135px;
+   margin-left: 25%;
+}
+@media screen and (max-width:992px)
+{
+  .looking-for-a-lollip
+  {
+    font-size: 5vw;
+     margin-left: 20%;
+     margin-right: 20%;
+     margin-top: 100px;
+     width: 550px;
+  }
+  .para
+  {
+    margin-left: 20%;
+    font-size: 1.7vw;
+    width: 550px;
+  }
+  .btn1
+  {
+    margin-left: 20%;
+  }
+  .img1
+  {
+    width:275px;
+    height: 321px;
+    margin-top: 75px;
+    margin-left: 37%;
+    margin-right: 37%;
+  }
+}
+@media screen and (max-width:768px)
+{
+  .looking-for-a-lollip
+  {
+    font-size: 40px;
+     margin-left: 10%;
+     margin-right: 10%;
+     margin-top: 100px;
+  }
+  .para
+  {
+    margin-left: 10%;
+    font-size: 16px;
+  }
+  .btn1
+  {
+    margin-left: 10%;
+  }
+  .img1
+  {
+    width:275px;
+    height: 321px;
+    margin-top: 75px;
+    margin-left: 30%;
+    margin-right: 30%;
+
+  }
+}
+@media screen and (max-width:470px)
+{
+  .looking-for-a-lollip
+  {
+    font-size: 40px;
+     margin-left: 5%;
+     margin-right: 5%;
+     margin-top: 50px;
+     width: 390px;
+  }
+  .para
+  {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 390px;
+    font-size: 14px;
+  }
+  .btn1
+  {
+    margin-left: 5%;
+    width: 40%;
+  }
+  .btn2
+  { 
+    width: 40%;
+  }
+  .img1
+  {
+    width:275px;
+    height: 321px;
+    margin-top: 50px;
+    margin-left: 18%;
+    margin-right: 18%;
+
+  }
+}
+
+/* ------------------------Product detaild Page--------------------------- */
+.div2
+{
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+    background: url("../../assets/BG/png/BG.png");
+    height: 65vh;
+}
+.this-is-a-heading-in 
+{
+  color: #31373D;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: center;
+  padding-top: 4%;
+}
+.div2 .img2
+{
+  margin-top: 2%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 80vh;
+}
+@media screen and (max-width:992px)
+{
+  .div2
+  {
+    margin-top: 10%;
+  }
+  .div2 .img2
+  {
+  margin-top: 2%;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 80vh; 
+  }
+}
+@media screen and (max-width:768px)
+{
+  .div2 .img2
+  {
+  margin-top: 2%;
+  width: 75%;
+  margin-left: 12%;
+  margin-right: 12%;
+  height: 80vh; 
+  }
+}
+@media screen and (max-width:470px)
+{
+  .div2 .img2
+  {
+  margin-top: 2%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 80vh; 
+  }
+}
+.div3
+{
+    height: 50vh;
+    background-color: white;
+}
+
+/* ------------------------------------Price compare page-------------------------------- */
+.div4
+{
+  min-height: 100vh;
+}
+.compare-pricing-toda 
+{
+  color: #31373D;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: center;
+}
+.div4 .lorem-ipsum-is-simpl 
+{
+  color: #8B8E91;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 449px;
+  margin-left: 32%;
+  margin-right: 32%;
+  text-align: center;
+}
+#myBtnContainer
+{
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
+  width: 38.7vw;
+  min-height: 46px;
+  margin-left: 30.64%;
+  margin-right: 30.65%;
+
+}
+.btn 
+{
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
+  width: 9.675vw;
+  min-height: 46px;
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+.btn:hover 
+{
+  background-color: #ddd;
+}
+.btn.active 
+{
+  border: 3px solid rgb(52, 170, 224);
+}
+.sec1
+{
+  width: 72px;
+  height:auto;
+  float: left;
+  margin-left: 42%;
+
+}
+.sec2
+{
+  float: left;
+}
+.sec3
+{
+  float:left;
+}
+section .annual
+{
+  color: #31373D;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  width: 72px;
+  text-align: center;
+}
+section .monthly
+{
+  color: #31373D;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  width: 72px;
+  text-align: center;
+}
+section .off-50
+{
+  color: #8B8E91;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 60px;
+  text-align: left; 
+}
+.switch 
+{
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 17px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider 
+{
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+}
+.slider:before 
+{
+  position: absolute;
+  content: "";
+  height: 36px;
+  width: 36px;
+  bottom: -10px;
+  background-color: white;
+  transition: .4s;
+  background-color: #2196F3;
+}
+.slider 
+{
+  background-color: rgb(230, 227, 227);
+}
+input:focus + .slider 
+{
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before 
+{
+  transform: translateX(36px);
+}
+
+/* Rounded sliders */
+.slider.round 
+{
+  border-radius: 40px;
+}
+                         
+.slider.round:before 
+{
+  border-radius: 50%;
+}
+
+.rectangle-copy-17 
+{
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 5px 0 rgba(113, 100, 100, 0.3);
+  width: 33vw;
+  min-height: 170px;
+  clear: both;
+  float: left;
+  margin-left: 26%;
+  margin-top: 50px;
+}
+.rectangle-copy-17 h3
+{
+  color: #31373D;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 1.4vw;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+}
+.rectangle-copy-19 
+{
+  background-color: #FFFFFF;
+  box-shadow: 0 8px 19px 0 rgba(0, 0, 0, 0.16);
+  width: 16.5vw;
+  min-height: 200px;
+  float: left;
+  margin-top: 35px;
+}
+.rectangle-copy-19 h4
+{
+  color: #31373D;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 1.4vw;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  margin-top: 15px;
+
+}
+#lollipopPrice, #IcecandyPrice, .dollor
+{
+  color: #3D3C31;
+  font-family:aktiv-grotesk, sans-serif ;
+  font-size: 2.1vw;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+}
+.rectangle-copy-17 .per, .rectangle-copy-19 .per
+{
+  color: #8B8E91;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 1.02vw;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 22px;
+  width: 78px;
+  text-align: left;
+}
+.rectangle-copy-17 .lollipopQty, .IcecandyQty 
+{ 
+  color: #31373D;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 1.17vw;
+  font-weight: 400;
+  line-height: 22px;
+  width: 156px;
+  text-align: left;
+}
+.card
+{
+  width: 16.5vw;
+  float: left;
+  min-height: 170px;
+}
+#diffValue
+{
+  width: 16.5vw;
+  min-height: 200px;
+}
+.difference
+{
+  color: #0099FF;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 2.3vw;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+}
+
+@media screen and (max-width:992px)
+{
+  .div4 .lorem-ipsum-is-simpl 
+  {
+    margin-left: 27%;
+  }
+  #myBtnContainer
+  {
+    width: 55vw;
+    margin-left: 22%;
+  }
+  .btn
+  {
+    width: 13.75vw;
+    font-size: 1.5vw;
+  }
+  .rectangle-copy-17 
+  {
+    margin-left: 18%;
+    width: 46vw;
+  }
+  .rectangle-copy-17 h3
+  {
+     font-size: 2.4vw;
+  }
+  .rectangle-copy-17 .dollor
+  {
+     font-size: 2.7vw;
+  }
+  .rectangle-copy-17 #lollipopPrice, #IcecandyPrice, .difference
+  {
+     font-size: 2.7vw;
+  }
+  .rectangle-copy-17 .per, .rectangle-copy-19 .per
+  {
+      font-size: 1.6vw;
+  }
+  .rectangle-copy-17 .lollipopQty, .IcecandyQty 
+  {
+    font-size: 1.7vw
+  }
+  .rectangle-copy-19 h4
+  {
+    font-size: 2.1vw;
+  }
+  .card
+  {
+    width: 23vw;
+  }
+  .rectangle-copy-19
+  {
+      width: 21vw;
+  }
+  #diffValue
+  {
+    width: 21vw;
+  }
+
+}
+@media screen and (max-width:768px)
+{
+  .div4 .lorem-ipsum-is-simpl 
+  {
+    margin-left: 20%;
+  }
+  #myBtnContainer
+  {
+    width: 75vw;
+    margin-left: 14%;
+  }
+  .btn
+  {
+    font-size: 2.2vw;
+    width: 18.75vw;
+    font-weight: bold;
+  }
+  .sec1
+  {
+    margin-left: 38%;
+  }
+  .rectangle-copy-17 
+  {
+    margin-left: 15%;
+    width: 46vw;
+  }
+  .rectangle-copy-17 h3
+  {
+     font-size: 2.4vw;
+  }
+  .rectangle-copy-19 h4
+  {
+    font-size: 2.1vw;
+  }
+  .card
+  {
+    width: 23vw;
+  }
+  .rectangle-copy-19
+  {
+      width: 23vw;
+  }
+  #diffValue
+  {
+    width: 23vw;
+  }
+
+}
+@media screen and (max-width:596px)
+{
+  .div4 .lorem-ipsum-is-simpl 
+  {
+    margin-left: 10%;
+  }
+  .sec1
+  {
+    margin-left: 34%;
+  }
+  .rectangle-copy-17 
+  {
+    margin-left: 8%;
+    width: 54vw;
+  }
+  .rectangle-copy-17 h3
+  {
+     font-size: 3.1vw;
+  }
+  .rectangle-copy-17 .dollor
+  {
+     font-size: 3.1vw;
+  }
+  .rectangle-copy-17 #lollipopPrice, #IcecandyPrice, .difference
+  {
+     font-size: 3.1vw;
+  }
+  .rectangle-copy-17 .per, .rectangle-copy-19 .per
+  {
+      font-size: 2vw;
+  }
+  .rectangle-copy-17 .lollipopQty, .IcecandyQty 
+  {
+    font-size: 2.1vw
+  }
+  .rectangle-copy-19 h4
+  {
+    margin-top: 0px;
+    font-size: 3.1vw;
+    line-height: 18px;
+  }
+  .card
+  {
+    width: 27vw;
+  }
+  .rectangle-copy-19
+  {
+      width: 27vw;
+      margin-right: 8%;
+  }
+  #diffValue
+  {
+    width: 27vw;
+  }
+}
+@media screen and (max-width:470px)
+{
+  .div4 .lorem-ipsum-is-simpl 
+  {
+    width: 409px;
+    margin-left: 2%;
+  }
+  .sec1
+  {
+    margin-left: 28%;
+  }
+}
+
+
+/* ----------------------------------Testimonial Page ----------------------------- */
+.div5
+{
+  margin-top: 5%;
+  clear: both;
+  min-height: 80vh;
+}
+.heres-what-our-cust {
+  color: #31373D;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: center;
+}
+.testimonialImage
+{
+  width: 50%;
+  height: 80%;
+}
+.carousel-indicators
+{
+  margin-top: 50px;
+}
+div > ul.carousel-indicators > li 
+{
+  height: 8px;
+  width: 8px;
+  background: transparent;
+  border: 1px solid rgb(196, 195, 195);
+  background-color: rgb(204, 201, 201);
+}
+div > ul.carousel-indicators > li.active
+{
+  background-color: rgb(0, 143, 252);
+}
+.div5 .carousel-item .testimonialImage
+{
+ margin-left: 32%;
+}
+.div5 .carousel-item .sec2 p
+{
+  color: #8B8E91;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  margin-right:20%; 
+}
+.div5 .carousel-item .sec2 .name
+{
+  color: #31373D;
+  font-family: aktiv-grotesk, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+  
+}
+.div5 .carousel-item .sec2 .company
+{
+  color: #31373D;
+  font-family:aktiv-grotesk, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+}
+.div5 .carousel-item .sec2 .quote
+{
+  margin-top: -7%;
+  margin-left: -7%;
+}
+@media screen and (max-width:768px)
+{
+  .testimonialImage
+  {
+    margin-left: 0%;
+    width: 40%;
+    height: 70%;
+  }
+  .div5 .carousel-item .sec2 
+  {
+    margin-left: 17%;
+    margin-right: 17%;
+  }
+  
+}
+@media screen and (max-width:596px)
+{
+  .testimonialImage
+  {
+    margin-left: 0%;
+    width: 45%;
+    height: 80%;
+  }
+  .div5 .carousel-item .sec2 
+  {
+    margin-left: 17%;
+    margin-right: 17%;
+  }
+  
+}
+@media screen and (max-width:470px)
+{
+  .heres-what-our-cust
+  {
+    width: 350px;
+    margin-left: 10%;
+  }
+  .testimonialImage
+  {
+    margin-left: 10%;
+    width: 45%;
+    height: 80%;
+  }
+  .div5 .carousel-item .sec2 
+  {
+    margin-left: 20%;
+    margin-right: 0%;
+  }
+  .div5 .carousel-item .sec2 p
+  {
+    width: 80%;
+  }
+  
+}
+
+/* ----------------------Last page----------------------------- */
+.div6
+{
+  margin-top: 6%;
+  min-height: 100vh;
+  width: 100%;
+}
+.loved-by-users-reco-copy-2 
+{
+  color: #31373D;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+  margin-left: 35%;
+  margin-top: 12%;
+}
+.div6 p
+{
+  color: #8B8E91;
+  font-family: AktivGrotesk;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  margin-left: 35%;
+}
+.div6 .btn
+{
+  background-color: #0099FF;
+  border-radius: 3px;
+  width: 220px;
+  height: 48px;
+  margin-left: 35%;
+  color: white;
+}
+.div6 img
+{
+    width: 303px;
+    height: 335px;
+    margin-left: 15%;
+}
+@media screen and (max-width:768px)
+{
+  .div6 h2
+  {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .div6 p
+  {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .div6 .btn
+  {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .div6 img
+  {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

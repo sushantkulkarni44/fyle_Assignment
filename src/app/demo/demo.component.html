@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  
+</head>
+<body>
+<!---------------- Home Page ---------------->
+<div class="div1">
+        <div class="div1-1 row">
+                <div class="div1-1-1 col-lg-6 col-md-12">
+                        <h1 class="looking-for-a-lollip">Looking for a 
+                        lollipop alternative?</h1>
+                        <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <button class="btn1">Primary CTA</button>
+                        <button class="btn2">Secondary CTA</button>
+                </div>
+                <div class="div1-1-2 col-lg-6 col-md-12">
+                     <img class="img1" src="../../assets/globe.png" alt="">           
+                </div>
+        </div>
+</div>
+
+<!----------------------Product Details-------------------->
+<div class="div2">
+        <h3 class="this-is-a-heading-in">This is heading in <br>two lines</h3>
+        <img class="img2" src="../../assets/Group 6/png/Group 6.png" alt="">
+</div>
+
+<div class="div3">
+        
+</div>
+
+<!---------------------- Compare Price---------------------->
+<div class="div4">
+        <h3 class="compare-pricing-toda">Compare pricing today!</h3>
+        <p class="lorem-ipsum-is-simpl">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+
+        <!----- Select buttons for product qty ------>
+        <div id="myBtnContainer">
+                <button class="btn active" value="25" #btnValueOne (click)="filterLollipopOne(btnValueOne.value)"> 25&nbsp; Serving</button>
+                <button class="btn"  value="50"  #btnValueTwo (click)="filterLollipopTwo(btnValueTwo.value)"> 50&nbsp; Serving</button>
+                <button class="btn" value="100"  #btnValueThree (click)="filterLollipopThree(btnValueThree.value)"> 100 Serving</button>
+                <button class="btn" value="200"  #btnValueFour (click)="filterLollipopFour(btnValueFour.value);"> 200 Serving</button>
+        </div><br><br><br>
+
+        <!-------Toggle button for check offers------->
+        <section class="sec1">
+                <p class="monthly">Monthly</p>
+        </section>
+        
+        <section class="sec2">
+        <label class="switch">
+                <input type="checkbox" id="myCheck" disabled (click)="yearlyOffer($event);">
+                <div class="slider round"></div>
+        </label>
+        </section>
+        
+        <section class="sec3">
+                <p class="annual">Annual<br><span class="off-50">50% off</span></p>
+        </section>
+
+
+        <!------------Card for product details------------->
+        <div class="rectangle-copy-17" >
+                <div class="card">
+                        <div class="card-body">
+                        <h3>Lollipop</h3><br>       
+                        <span class="dollor">$</span> <span id="lollipopPrice"></span><span class="per" > per month</span><br>
+                        <span class="lollipopQty"> For </span><span class="lollipopQty" id="lollipopQty"></span><span class="lollipopQty"> Serving</span>
+                </div>
+        </div>
+        <div class="card">
+                <div class="card-body">
+                        <h3>Icecandy</h3><br>
+                        <span class="dollor">$</span> <span id="IcecandyPrice"></span><span class="per"> per month</span><br>
+                        <span class="IcecandyQty">For </span> <span class="IcecandyQty" id="IcecandyQty"></span> <span class="IcecandyQty"> Serving</span>
+                </div>
+        </div>
+</div>
+
+<div class="rectangle-copy-19">
+        <div class="card" id="diffValue">
+                <div class="card-body">
+                    <h4> Your Savings with lollipop </h4>
+                        <span class="difference">$</span><span class="difference" id="difference"></span><br>
+                        <span class="per">per month</span>
+                </div>
+        </div>
+</div>
+</div>
+
+
+<!---------------------Customer testimonial---------------------->
+<div class="div5">
+    <h3 class="heres-what-our-cust">Here’s what our customers have to say </h3><br><br><br>
+        <div id="my-carousel" class="carousel slide " data-ride="carousel" data-interval="2000"            data-pause="hover">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                     <div class="row">
+                        <section class="col-lg-6 col-md-6 col-sm-12 ">  
+                                <img class="testimonialImage d-block img-fluid" src="../../assettestimonial-photo1.png" alt="Slide 1">
+                        </section>
+                        <section class="sec2 col-lg-6 col-md-6 col-sm-12">
+                                <br>
+                                <p> <img class="quote" src="../../assets/quotation-mark.png" alt=""> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                <span class="name">Alesha Dixon</span><br>
+                                <span class="company">Tip World</span>
+                        </section>
+                     </div>
+                </div>
+
+                <div class="carousel-item">
+                     <div class="row">
+                        <section class="col-lg-6 col-md-6 col-sm-12 ">  
+                                <img  class="testimonialImage d-block img-fluid" src="../../assets/testimonial-circles-hugh-evans.png" alt="Slide 1">
+                        </section>
+                        <section class="sec2 col-lg-6 col-md-6 col-sm-12">
+                                <span><img  src="../../assets/quotation-mark.pn" alt=""></span><p> <img class="quote" src="../../assets/quotation-mark.png" alt=""> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                <span class="name">Connor Murphy</span><br>
+                                <span class="company">Tip World</span>
+                        </section>
+                    </div>  
+                </div>
+                <div class="carousel-item">
+                     <div class="row">
+                        <section class="col-lg-6 col-md-6 col-sm-12 ">  
+                                <img class="testimonialImage d-block img-fluid" src="../../assets/test1.png" alt="Slide 1">
+                        </section>
+                        <section class="sec2 col-lg-6 col-md-6 col-sm-12">
+                                <span><img  src="../../assets/quotation-mark.pn" alt=""></span><p> <img class="quote" src="../../assets/quotation-mark.png" alt=""> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                <span class="name">Devid Williams</span><br>
+                                <span class="company">Tip World</span>
+                        </section>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                     <div class="row">
+                        <section class="col-lg-6 col-md-6 col-sm-12 ">  
+                                <img class="testimonialImage d-block img-fluid" src="../../assets/Testimonial-image-Lisa-Walder-Round.png" alt="Slide 1">
+                        </section>
+                        <section class="sec2 col-lg-6 col-md-6 col-sm-12">
+                                <span><img  src="../../assets/quotation-mark.pn" alt=""></span><p> <img class="quote" src="../../assets/quotation-mark.png" alt=""> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                <span class="name"> Luccy</span><br>
+                                <span class="company">Tip World</span>
+                        </section>
+                    </div>
+                </div>
+             </div> <!-- inner --><br><br><br>
+                    
+             <!-- Indicators -->
+                <ul class="carousel-indicators">
+                        <li data-target="#my-carousel" data-slide-to="0" class="rounded-circle active"></li>
+                        <li data-target="#my-carousel" data-slide-to="1" class="rounded-circle"></li>
+                        <li data-target="#my-carousel" data-slide-to="2" class="rounded-circle"></li>
+                        <li data-target="#my-carousel" data-slide-to="3" class="rounded-circle"></li>
+                </ul>
+     </div> <!-- main container -->
+</div>
+
+<div class="div6">
+        <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h2 class="loved-by-users-reco-copy-2">Loved by users, 
+                        recommended by experts</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <button class="btn">Primary CTA</button>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                        <img src="../../assets/Group 4/png/Group 4.png" alt="">
+                </div>
+        </div>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
